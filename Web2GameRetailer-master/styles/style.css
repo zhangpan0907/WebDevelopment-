@@ -1,0 +1,297 @@
+body {
+    margin: 0px;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0px;
+  }
+
+h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#sres{
+    padding-left: 40px;
+}
+
+#faqheading{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+li {
+    line-height: 1.5em;
+    list-style-type: none;
+}
+
+ul {
+    padding: 0px;
+}
+
+
+#menu{
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+    height: 18px;
+    margin-bottom: 20px;
+}
+
+#menu li {
+    float: left;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+#menu li a {
+    color: white;
+}
+
+.featprod {
+    color: #bd2600;
+}
+
+input {
+    display: block;
+    border: 1px solid #babdbe;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+input[type=text]{
+    width: 300px;
+}
+
+#submit:hover {
+    color: #1565C0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#submitadd{
+    float: left;
+}
+
+.productPicture{
+    width: 28%;
+    margin: 2.66%;
+}
+
+.browsePicture{
+    width: 70%;
+    max-height: 14em;
+    overflow: hidden;
+}
+
+#header1 {
+    padding-left: 90px;
+    padding-right: 90px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    height: 190px;
+}
+
+
+.slideshow-container {
+    /*position: fixed; shouldn't use position:fixed for this*/ 
+    display: inline-block;
+}
+
+.numbertext {
+    display: inline-block;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.slideshowPicture {
+    left: 5%;
+    top: 20px;
+    z-index: 1;
+}
+
+.box2{
+    border: 3px red solid;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+    box-sizing: border-box;
+}
+.box3{
+    border: 3px red solid;
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+#bannerHeading{
+    font-size: 50px;
+    margin-top: 50%;
+}
+
+
+#searchBox{
+    display: block;
+    margin: auto;
+    width: 900px;
+}
+
+.slideshowimg{
+    height: 300px;
+    width: 450px;
+    overflow: hidden;
+}
+
+.bottomspace{
+    padding-bottom: 100px;
+}
+
+#searchBox input{
+    border: 3px red solid;
+    background-color: rgb(236, 236, 236);
+    padding: 15px 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.faq{
+    border: 3px red solid;
+    background-color: #CCCCCC;
+    padding:10px 75px;
+    width: 70%;
+    margin: auto;
+}
+
+h10{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    display: inline-block;
+}
+
+p1{
+    padding-bottom: 15px;
+    font-size: 20px;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+.warning{
+    font-size: larger;
+    color: red;
+}
+
+.lightText{
+    color: rgba(1, 1, 1, 0.5);
+}
+
+#searchSubmit{
+    display: inline;
+    width: 30px;
+    visibility: hidden;
+}
+
+a.searchResult{
+    text-decoration: underline;
+}
+
+.searchcontainer{
+    border: 3px red solid;
+    background-color: rgb(236, 236, 236);
+    padding:10px 75px;
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.bcontainer{
+    float: left;
+    height: 18em;
+    width: 22%;
+    border: 3px red solid;
+    background-color: rgb(236, 236, 236);
+    padding:20px 75px;
+    margin: 1%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* body {
+    font-family: Arial;
+    margin: 0;
+  }
+
+
+
+h1 {
+    position: fixed;
+    left: 15%;
+    top: 35px;
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+    position: fixed;
+    left: 45%;
+    top: 50px;
+}
+
+p1{
+    font-size: 20px;
+    position: fixed;
+    left: 50%;
+    top: 70px;
+}
+
+p2{
+    font-size: 20px;
+    position: fixed;
+    left: 55%;
+    top: 70px;
+}
+
+
+
+
+
+
+
+.box3{
+    position: center left fixed;
+    border: 3px red solid;
+    width: 20%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+ */
+
+
